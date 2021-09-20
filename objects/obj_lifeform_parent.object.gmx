@@ -85,7 +85,7 @@ if(hp &lt;= 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_lifeform_parent">
+    <event eventtype="4" ename="obj_weapon_item">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -108,7 +108,7 @@ if(hp &lt;= 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_weapon_item">
+    <event eventtype="4" ename="obj_lifeform_parent">
       <action>
         <libid>1</libid>
         <id>603</id>

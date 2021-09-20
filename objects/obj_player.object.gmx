@@ -35,6 +35,7 @@ event_inherited();
 
 sprinting = false;
 weapon_sprite = spr_stick;
+damageModifier = 0;
 
 //Values
 image_speed = 0;
@@ -66,7 +67,7 @@ face = RIGHT;
 movement = MOVE;
 sprintstage = SPRINT;
 sneakstage = SNEAK;
-
+boomstage = BOOM;
 
 //Create the sprite array
 //Walking sprites
@@ -80,6 +81,12 @@ sprite[RIGHT, ATTACK] = spr_player_attack_right;
 sprite[UP, ATTACK] = spr_player_attack_up;
 sprite[LEFT, ATTACK] = spr_player_attack_left;
 sprite[DOWN, ATTACK] = spr_player_attack_down;
+
+//Boomstick sprites
+sprite[RIGHT, BOOM] = spr_player_boomstick_right;
+sprite[UP, BOOM] = spr_player_boomstick_up;
+sprite[LEFT, BOOM] = spr_player_boomstick_left;
+sprite[DOWN, BOOM] = spr_player_boomstick_down;
 
 //Sprinting sprites
 sprite[RIGHT, SPRINT] = spr_playerRight;

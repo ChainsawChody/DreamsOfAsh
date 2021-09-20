@@ -25,26 +25,35 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(keyboard_check(vk_tab)){
+            <string>///Show Stats / Debug info
+if(keyboard_check(vk_tab)){
     //Draw Box
-    draw_set_color(c_black)
-    draw_roundrect(view_wview[0], view_wview[0] + 75, view_wview[0] + 305, view_wview[0] - 30, false)
-    draw_set_color(c_white)
-    draw_set_halign(fa_left)
+      draw_set_color(c_black)
+      draw_roundrect(view_wview[0], view_wview[0] + 75, view_wview[0] + 305, view_wview[0] - 30, false)
+      draw_set_color(c_white)
+      draw_set_halign(fa_left)
     //All Stat Names
-    draw_text(view_wview[0] + 5, view_hview[0] + 100, "Level: ");
-    draw_text(view_wview[0] + 5, view_hview[0] + 125, "Health: ")
-    draw_text(view_wview[0] + 5, view_hview[0] + 150, "Experience: ")
-    draw_text(view_wview[0] + 5, view_hview[0] + 175, "Attack Damage: ")
+      draw_text(view_wview[0] + 5, view_hview[0] + 100, "Level: ");
+      draw_text(view_wview[0] + 5, view_hview[0] + 125, "Health: ")
+      draw_text(view_wview[0] + 5, view_hview[0] + 150, "Experience: ")
+      draw_text(view_wview[0] + 5, view_hview[0] + 175, "Attack Damage: ")
+      draw_text(view_wview[0] + 5, view_hview[0] + 200, "damageModifier: ")
+      draw_text(view_wview[0] + 5, view_hview[0] + 225, "weapon_sprite: ")
     //All Stat Values
-    draw_set_color(c_white)
-    draw_set_halign(fa_right)
-    draw_text(view_wview[0] + 300, view_hview[0] + 100, string(obj_player_stats.level));
-    draw_text(view_wview[0] + 300, view_hview[0] + 125, string(obj_player_stats.hp)+"/"+string(obj_player_stats.maxhp));
-    draw_text(view_wview[0] + 300, view_hview[0] + 150, string(obj_player_stats.expr)+"/"+string(obj_player_stats.maxexpr));
-    //draw_text(view_wview[0] + 5, view_hview[0] + 100, string(obj_player_stats.food));
-    draw_text(view_wview[0] + 300, view_hview[0] + 175, string(obj_player_stats.attack));
+      draw_set_color(c_white)
+      draw_set_halign(fa_right)
+      draw_text(view_wview[0] + 300, view_hview[0] + 100, string(obj_player_stats.level));
+      draw_text(view_wview[0] + 300, view_hview[0] + 125, string(obj_player_stats.hp)+"/"+string(obj_player_stats.maxhp));
+      draw_text(view_wview[0] + 300, view_hview[0] + 150, string(obj_player_stats.expr)+"/"+string(obj_player_stats.maxexpr));
+      //draw_text(view_wview[0] + 5, view_hview[0] + 100, string(obj_player_stats.food));
+      draw_text(view_wview[0] + 300, view_hview[0] + 175, string(obj_player_stats.attack));
+      draw_text(view_wview[0] + 300, view_hview[0] + 200, string(obj_player.damageModifier));
+      draw_text(view_wview[0] + 300, view_hview[0] + 225, string(obj_player.weapon_sprite));
 }
+      draw_set_halign(fa_right);
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 175, "attack: " + string(obj_player_stats.attack));
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 200, "damageModifier: " + string(obj_player.damageModifier));
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 225, "weapon_sprite: " + string(obj_player.weapon_sprite));
 </string>
           </argument>
         </arguments>

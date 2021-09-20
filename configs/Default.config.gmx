@@ -678,7 +678,7 @@
     <option_xbone_title_id></option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="13">
+    <constants number="14">
       <constant name="RIGHT">0</constant>
       <constant name="UP">1</constant>
       <constant name="LEFT">2</constant>
@@ -690,6 +690,7 @@
       <constant name="ATTACK">1</constant>
       <constant name="SPRINT">2</constant>
       <constant name="SNEAK">3</constant>
+      <constant name="BOOM">4</constant>
       <constant name="IDLE">2</constant>
       <constant name="DASH_COST">5</constant>
     </constants>

@@ -248,11 +248,11 @@ room_start_action = NEW_ROOM;
           <argument>
             <kind>1</kind>
             <string>/// Draw the stats
-var scale = 3;
+  var scale = 3;
 //Font Properties
-draw_set_halign(fa_left);
-draw_set_valign(fa_middle);
-draw_set_font(fnt_general);
+  draw_set_halign(fa_left);
+  draw_set_valign(fa_middle);
+  draw_set_font(fnt_general);
 
 //Draw Stats ---------------------------------------------------------------------------------------------------
 

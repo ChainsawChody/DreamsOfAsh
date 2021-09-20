@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if(!room = rm_cRoad) &amp;&amp; !audio_is_playing(snd_maintheme)
+            <string>/// Room Soundtracks
+
+//if(!room = rm_cRoad) &amp;&amp; !audio_is_playing(snd_maintheme)
 
 //butcher theme
 if(room == rm_slaughterhouse){

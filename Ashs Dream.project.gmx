@@ -46,6 +46,7 @@
     <sound>sound\snd_groan</sound>
     <sound>sound\snd_reeee</sound>
     <sound>sound\snd_old_woman_s1_t0</sound>
+    <sound>sound\snd_chainsawswing</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
@@ -54,6 +55,10 @@
       <sprite>sprites\spr_player_attack_left</sprite>
       <sprite>sprites\spr_player_attack_right</sprite>
       <sprite>sprites\spr_player_attack_up</sprite>
+      <sprite>sprites\spr_player_boomstick_down</sprite>
+      <sprite>sprites\spr_player_boomstick_left</sprite>
+      <sprite>sprites\spr_player_boomstick_right</sprite>
+      <sprite>sprites\spr_player_boomstick_up</sprite>
       <sprite>sprites\spr_playerDown</sprite>
       <sprite>sprites\spr_playerDownS</sprite>
       <sprite>sprites\spr_playerDownW</sprite>
@@ -265,6 +270,7 @@
     <script>scripts\STORY.gml</script>
     <scripts name="Player States">
       <script>scripts\scr_attack_state.gml</script>
+      <script>scripts\scr_boom_state.gml</script>
       <script>scripts\scr_dash_state.gml</script>
       <script>scripts\scr_move_state.gml</script>
       <script>scripts\scr_idle_state.gml</script>
@@ -307,6 +313,9 @@
     <script>scripts\scr_lantern_on_new.gml</script>
     <script>scripts\scr_lantern_on.gml</script>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shader0.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_general</font>
     <font>fonts\fnt_title</font>
