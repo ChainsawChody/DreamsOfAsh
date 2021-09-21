@@ -100,26 +100,26 @@ if (obj_input.attack_key) && obj_player_stats.stamina >= 0 {
   image_index = 0;
   obj_player_stats.stamina -= 1;
   state = scr_attack_state;
-  
+
   //Swing Sounds
-  if (!audio_is_playing(snd_swing)) { 
-    if(obj_player.weapon_sprite = 042){ //lantern swing
+  if (!audio_is_playing(snd_swing)) {
+    if (obj_player.weapon_sprite = 042) { //lantern swing
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(0.95, 1.05));
       audio_play_sound(altersoundAttack, 1, false);
-    }else if(obj_player.weapon_sprite = 147){ //stick swing
+    } else if (obj_player.weapon_sprite = 147) { //stick swing
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(1.3, 1.4));
       audio_play_sound(altersoundAttack, 1, false);
-    }else if (obj_player.weapon_sprite = 149){ //axe swing
+    } else if (obj_player.weapon_sprite = 149) { //axe swing
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(0.8, 0.9));
       audio_play_sound(altersoundAttack, 1, false);
-    }else if (obj_player.weapon_sprite = 150){ //chainsaw swing
+    } else if (obj_player.weapon_sprite = 150) { //chainsaw swing
       var altersoundAttack = snd_chainsawswing;
       audio_sound_pitch(altersoundAttack, random_range(0.95, 1.05));
       audio_play_sound(altersoundAttack, 1, false);
-    }else{
+    } else {
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(0.9, 1.1));
       audio_play_sound(altersoundAttack, 1, false);

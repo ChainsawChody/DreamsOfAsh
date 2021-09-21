@@ -13,15 +13,19 @@ new_weapon.sprite_index = temp;
 // 147 = Stick
 // 149 = Axe
 // 150 = Chainsaw
-var currentModifier = obj_player_stats.attack;
 
-if(obj_player.weapon_sprite == 47) damageModifier = 1.1;
+var oldDM = damageModifier;
+show_debug_message("oldDM: " + string(damageModifier));
+
+if(obj_player.weapon_sprite == 42) damageModifier = 1;
 if(obj_player.weapon_sprite == 147) damageModifier = 1.2;
 if(obj_player.weapon_sprite == 149) damageModifier = 1.3;
 if(obj_player.weapon_sprite == 150) damageModifier = 1.5;
 
-//obj_player_stats.attack -= currentModifier;
-obj_player_stats.attack += obj_player_stats.attack * damageModifier;
+obj_player_stats.attack = (obj_player_stats.attack / oldDM) * damageModifier;
+
+show_debug_message("damageModifier: " + string(damageModifier));
+show_debug_message("attack: " + string(obj_player_stats.attack));
 
 
 /*

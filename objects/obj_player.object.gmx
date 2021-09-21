@@ -35,7 +35,7 @@ event_inherited();
 
 sprinting = false;
 weapon_sprite = spr_stick;
-damageModifier = 0;
+damageModifier = 1;
 
 //Values
 image_speed = 0;

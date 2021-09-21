@@ -145,5 +145,5 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
     - Created obj_npc_lifeform for animal lifeforms (to follow player without creating damage object)
 09/20/21
     - Added swing sound changes based on weapon held (weapon ID)
-    - Added weapon damage modifiers
-    
+    - Started weapon damage modifiers
+    - DizzyDratini help finish completing correct damage modifiers
