@@ -51,11 +51,13 @@ if(keyboard_check(vk_tab)){
       draw_text(view_wview[0] + 300, view_hview[0] + 225, string(obj_player.weapon_sprite));
 }
 /*
-            draw_set_halign(fa_right);
-      draw_text(view_wview[0] + 300, view_hview[0]/2 + 175, "attack: " + string(obj_player_stats.attack));
-      draw_text(view_wview[0] + 300, view_hview[0]/2 + 200, "damageModifier: " + string(obj_player.damageModifier));
-      draw_text(view_wview[0] + 300, view_hview[0]/2 + 225, "weapon_sprite: " + string(obj_player.weapon_sprite));
-//      draw_text(view_wview[0] + 300, view_hview[0]/2 + 225, "weapon_sprite: " + string(obj_player.weapon_sprite));
+      draw_set_halign(fa_right);
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 175, "attack: " + string((obj_player_stats.attack/obj_player.damageModifier)));
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 200, "attack total: " + string(obj_player_stats.attack));
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 225, "damageModifier: " + string(obj_player.damageModifier));
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 250, "weapon_sprite: " + string(obj_player.weapon_sprite));
+      draw_text(view_wview[0] + 300, view_hview[0]/2 + 275, "weapon_sprite: " + string(obj_player.weapon_sprite));
+*/
 </string>
           </argument>
         </arguments>

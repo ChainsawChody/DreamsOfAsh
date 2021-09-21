@@ -144,6 +144,6 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
     - Changed inventory text color to white
     - Created obj_npc_lifeform for animal lifeforms (to follow player without creating damage object)
 09/20/21
-    - Added swing sound changes based on weapon held (weapon ID)
-    - Started weapon damage modifiers
-    - DizzyDratini help finish completing correct damage modifiers
+    - Added swing sound changes based on weapon held (by sprite ID)
+    - [DizzyDratini] Finished damage modifiers based on weapon pickup
+    - Added boomstick animation
