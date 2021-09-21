@@ -1,5 +1,16 @@
 ///scr_attack_state
-image_speed = .8;
+if (obj_player.weapon_sprite = 042) { //lantern 
+  image_speed = 0.8;
+} else if (obj_player.weapon_sprite = 147) { //stick 
+  image_speed = 1.0;
+} else if (obj_player.weapon_sprite = 149) { //axe 
+  image_speed = 0.5;
+} else if (obj_player.weapon_sprite = 150) { //chainsaw 
+  image_speed = 0.4;
+} else {
+  image_speed = 0.8;
+}
+
 movement = ATTACK;
 
 if (animation_hit_frame(2))

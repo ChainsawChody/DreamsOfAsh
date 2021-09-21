@@ -33,6 +33,7 @@
       <sound>sound\snd_boomstick</sound>
       <sound>sound\snd_playereat</sound>
       <sound>sound\snd_levelup</sound>
+      <sound>sound\snd_chainsawswing</sound>
     </sounds>
     <sounds name="NPC">
       <sound>sound\snd_catheal</sound>
@@ -46,7 +47,6 @@
     <sound>sound\snd_groan</sound>
     <sound>sound\snd_reeee</sound>
     <sound>sound\snd_old_woman_s1_t0</sound>
-    <sound>sound\snd_chainsawswing</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player">
