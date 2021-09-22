@@ -176,6 +176,7 @@
     </sprites>
     <sprites name="System">
       <sprite>sprites\spr_blood</sprite>
+      <sprite>sprites\spr_bloodgore</sprite>
       <sprite>sprites\spr_bloodpool</sprite>
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_damage</sprite>
@@ -290,10 +291,12 @@
         <script>scripts\scr_enemy_choose_next_state.gml</script>
         <script>scripts\scr_check_for_player.gml</script>
         <script>scripts\scr_move_axis.gml</script>
+        <script>scripts\scr_flee_axis.gml</script>
       </scripts>
     </scripts>
     <script>scripts\scr_string_copy_words.gml</script>
     <script>scripts\scr_death_blood.gml</script>
+    <script>scripts\scr_death_gore.gml</script>
     <script>scripts\scr_pickup.gml</script>
     <script>scripts\scr_levelup.gml</script>
     <script>scripts\scr_interact.gml</script>
@@ -432,6 +435,7 @@
       </objects>
       <object>objects\obj_beans_health</object>
       <object>objects\obj_blood</object>
+      <object>objects\obj_bloodgore</object>
       <object>objects\obj_bloodpool</object>
       <object>objects\obj_butcher_health</object>
       <object>objects\obj_catsummon</object>

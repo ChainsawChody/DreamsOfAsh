@@ -147,3 +147,5 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
     - Added swing sound changes based on weapon held (by sprite ID)
     - [DizzyDratini] Finished damage modifiers based on weapon pickup
     - Added boomstick animation
+09/22/21
+    - Added gore animation on lifeform death

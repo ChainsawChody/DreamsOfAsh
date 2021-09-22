@@ -52,10 +52,10 @@ phy_fixed_rotation = true;
             <string>/// Control depth / Death
 depth = -y;
 
-if(hp &lt;= 0)
-{
-    scr_death_blood();
-    //instance_destroy();
+if (hp &lt;= 0) {
+  scr_death_gore();
+  scr_death_blood();
+  //instance_destroy();
 }
 </string>
           </argument>
