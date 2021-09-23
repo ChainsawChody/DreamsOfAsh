@@ -110,10 +110,11 @@ if(obj_player_stats.pages == 0)
     text[0] = string(npc_name) + "''Why, look who it is! Hello there, young man!''"
     text[1] = "''What brings you to Mulligan Valley?''"
     text[2] = "''Especially at night! You must be quite brave.''"
-    text[3] = "''If you are venturing further down the road, would you mind finding my grandson?''"
-    text[4] = "''Last we spoke he said he'd be leaving to gather more wood for our cabin... ''"
-    text[5] = "''... Though, he may have gone into town...''"
-    text[6] = "[The old woman looks distressed.]"
+    text[3] = "''If you are venturing further down the road...''"
+    text[4] = "''Would you mind finding my grandson?''"
+    text[5] = "''Last we spoke he said he'd be leaving to gather more wood for our cabin... ''"
+    text[6] = "''... He might have gone into town...''"
+    text[7] = "[The old woman looks distressed.]"
 }
 
 if(obj_player_stats.pages &gt;= 1 &amp;&amp; obj_player_stats.pages &lt;= 6)

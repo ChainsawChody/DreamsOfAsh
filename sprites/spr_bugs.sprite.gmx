@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>4</bbox_left>
-  <bbox_right>29</bbox_right>
-  <bbox_top>1</bbox_top>
-  <bbox_bottom>23</bbox_bottom>
+  <bbox_left>12</bbox_left>
+  <bbox_right>17</bbox_right>
+  <bbox_top>11</bbox_top>
+  <bbox_bottom>14</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -22,5 +22,19 @@
   <frames>
     <frame index="0">images\spr_bugs_0.png</frame>
     <frame index="1">images\spr_bugs_1.png</frame>
+    <frame index="2">images\spr_bugs_2.png</frame>
+    <frame index="3">images\spr_bugs_3.png</frame>
+    <frame index="4">images\spr_bugs_4.png</frame>
+    <frame index="5">images\spr_bugs_5.png</frame>
+    <frame index="6">images\spr_bugs_6.png</frame>
+    <frame index="7">images\spr_bugs_7.png</frame>
+    <frame index="8">images\spr_bugs_8.png</frame>
+    <frame index="9">images\spr_bugs_9.png</frame>
+    <frame index="10">images\spr_bugs_10.png</frame>
+    <frame index="11">images\spr_bugs_11.png</frame>
+    <frame index="12">images\spr_bugs_12.png</frame>
+    <frame index="13">images\spr_bugs_13.png</frame>
+    <frame index="14">images\spr_bugs_14.png</frame>
+    <frame index="15">images\spr_bugs_15.png</frame>
   </frames>
 </sprite>

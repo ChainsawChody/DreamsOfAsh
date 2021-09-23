@@ -157,7 +157,6 @@ Vbor: 108</code>
     <instance objName="obj_treedarknostump" x="1056" y="768" name="inst_D097D2CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedarknostump" x="1088" y="768" name="inst_BA8A7F87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedarknostump" x="1120" y="768" name="inst_915F80B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treedarknostump" x="1152" y="768" name="inst_823C7873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedarknostump" x="1184" y="768" name="inst_2A729EC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedarknostump" x="1216" y="768" name="inst_C2281113" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedarknostump" x="1248" y="768" name="inst_B29726A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -230,7 +229,6 @@ Vbor: 108</code>
     <instance objName="obj_treedark" x="1120" y="704" name="inst_20D4924C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1152" y="704" name="inst_1B3F281B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1216" y="704" name="inst_AE8975A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treedark" x="1248" y="704" name="inst_6B1B5224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1280" y="704" name="inst_62C4AA7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1312" y="704" name="inst_0F8CA643" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1344" y="704" name="inst_A15AE83F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -277,7 +275,6 @@ Vbor: 108</code>
     <instance objName="obj_treedark" x="638" y="803" name="inst_EC3260FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="766" y="801" name="inst_B9ED535D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="798" y="802" name="inst_89A2A786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treedark" x="831" y="799" name="inst_E06735FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="719" y="692" name="inst_C185E704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="553" y="771" name="inst_504CE39D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="370" y="605" name="inst_2D6DF41E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -297,7 +294,6 @@ Vbor: 108</code>
     <instance objName="obj_treedark" x="1137" y="731" name="inst_A849C067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1214" y="802" name="inst_5958E57D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1172" y="731" name="inst_D07A7CE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treedark" x="1155" y="750" name="inst_F801B9C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="607" y="809" name="inst_A3821638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1039" y="693" name="inst_FD612E9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="717" y="218" name="inst_4FE0287E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -323,8 +319,6 @@ Vbor: 108</code>
     <instance objName="obj_treedark" x="1246" y="792" name="inst_9B789F64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1278" y="800" name="inst_D7A02168" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1331" y="727" name="inst_1DAF5E08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treedark" x="1395" y="728" name="inst_20003257" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treedark" x="1364" y="744" name="inst_9C0E283B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="754" y="691" name="inst_341440F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="740" y="714" name="inst_27951341" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="64" y="736" name="inst_46D91E5B" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
@@ -421,6 +415,10 @@ Vbor: 108</code>
     <instance objName="obj_bush" x="804" y="704" name="inst_9F63A17F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lantern" x="865" y="412" name="inst_0B2B8F02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fog" x="87" y="128" name="inst_2BE7D702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treedarknostump" x="1152" y="768" name="inst_BDBB82E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treedark" x="1414" y="672" name="inst_6D0181D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treedarknostump" x="1355" y="461" name="inst_B479E026" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treedarknostump" x="1581" y="452" name="inst_B3FD3A88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="1248" y="896" w="32" h="32" xo="67" yo="1" id="10001052" name="inst_7BDAD290" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

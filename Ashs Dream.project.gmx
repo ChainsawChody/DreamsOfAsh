@@ -219,6 +219,7 @@
         <sprite>sprites\spr_roof</sprite>
         <sprite>sprites\spr_window</sprite>
         <sprite>sprites\spr_windowlight</sprite>
+        <sprite>sprites\spr_windowlight_top</sprite>
       </sprites>
       <sprite>sprites\spr_bush</sprite>
       <sprite>sprites\spr_campfire</sprite>
@@ -513,6 +514,7 @@
       <object>objects\obj_treedarknostump</object>
       <object>objects\obj_walllantern</object>
       <object>objects\obj_windowlight</object>
+      <object>objects\obj_windowlight_top</object>
     </objects>
   </objects>
   <rooms name="rooms">

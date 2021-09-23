@@ -33,7 +33,7 @@ expr = 1;
 hp = 2;
 
 //Properties
-image_speed = .1;
+image_speed = 1; //1
 spd = .5;
 state = scr_enemy_idle_state;
 alarm[0] = room_speed*irandom_range(2, 5);
