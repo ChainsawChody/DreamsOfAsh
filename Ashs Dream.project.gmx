@@ -92,15 +92,18 @@
         <sprite>sprites\spr_enemy_hag</sprite>
       </sprites>
       <sprites name="Hellpig">
-        <sprite>sprites\spr_chinlin_stand_up</sprite>
-        <sprite>sprites\spr_chinlin_stand_right</sprite>
-        <sprite>sprites\spr_chinlin_stand_down</sprite>
-        <sprite>sprites\spr_chinlin_run_up</sprite>
-        <sprite>sprites\spr_chinlin_run_right</sprite>
         <sprite>sprites\spr_chinlin_run_down</sprite>
+        <sprite>sprites\spr_chinlin_run_right</sprite>
+        <sprite>sprites\spr_chinlin_run_up</sprite>
+        <sprite>sprites\spr_chinlin_stand_down</sprite>
+        <sprite>sprites\spr_chinlin_stand_right</sprite>
+        <sprite>sprites\spr_chinlin_stand_up</sprite>
       </sprites>
       <sprites name="Hellpiglet">
-        <sprite>sprites\spr_hellpiglet</sprite>
+        <sprite>sprites\spr_hellpig_walk_down</sprite>
+        <sprite>sprites\spr_hellpiglet_idle</sprite>
+        <sprite>sprites\spr_hellpiglet_walk_left</sprite>
+        <sprite>sprites\spr_hellpiglet_walk_right</sprite>
       </sprites>
       <sprites name="Pigman">
         <sprite>sprites\spr_enemy_pigman</sprite>
