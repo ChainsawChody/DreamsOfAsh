@@ -111,69 +111,66 @@ room_start_action = NEW_ROOM;
           <argument>
             <kind>1</kind>
             <string>/// Control the stats / Pause Menu / Death / Cat text
-if(instance_exists(obj_player))
-{
-    // Pause the game
-    if (obj_input.pause_key)
-    {
-        if (room != rm_pause)
-        {
-            if (instance_exists(obj_player))
-            {
-                obj_player.persistent = false;
-                //obj_darkness.persistent = false;
-            }
-            previous_room = room;
-            room_persistent = true;
-            room_goto(rm_pause);
-        }
-        else
-        {
-            room_goto(previous_room);
-        }
-        obj_input.pause_key = false;
-    }   
-    
-    //Death / deathroom
-    if(hp &lt;= 0)
-    {   
-        //show_message("You ded.")
-        if(room != rm_deathroom)
-        {
-            room_goto(rm_deathroom);
-            if(instance_exists(obj_player))
-            {
-                obj_player.persistent = false;
-                //obj_darkness.persistent = false;
-            }
-        }
+if (instance_exists(obj_player)) {
+  // Pause the game
+  if (obj_input.pause_key) {
+    if (room != rm_pause) {
+      if (instance_exists(obj_player)) {
+        obj_player.persistent = false;
+        //obj_darkness.persistent = false;
+      }
+      previous_room = room;
+      room_persistent = true;
+      room_goto(rm_pause);
+    } else {
+      room_goto(previous_room);
     }
+    obj_input.pause_key = false;
+  }
+  //Low Health Alert
+  if (obj_player_stats.hp &lt;= (obj_player_stats.maxhp * .2)) {
+  if (!object_exists(obj_lowhealth) &amp;&amp; instance_number(obj_lowhealth) == 1) {
+      instance_create(obj_player.x, obj_player.y, obj_lowhealth)
+    } else {
+      instance_destroy(obj_lowhealth);
+    }
+  }
+  //Death / deathroom
+  if (hp &lt;= 0) {
+    //show_message("You ded.")
+    if (room != rm_deathroom) {
+      room_goto(rm_deathroom);
+      if (instance_exists(obj_player)) {
+        obj_player.persistent = false;
+        //obj_darkness.persistent = false;
+      }
+    }
+  }
 
 }
 
 // Create Cat Summon alert
 var summon = false;
-if(instance_exists(obj_blackcat) &amp;&amp; summon == false)
-{
-    instance_create(x, y, obj_catsummon)
-    summon = true;
+if (instance_exists(obj_blackcat) &amp;&amp; summon == false) {
+  instance_create(x, y, obj_catsummon)
+  summon = true;
 }
 
 
-    /*
-    //Create health blackcat INFINITE -- Moved to move_state
-    // Create positive/negative range for x, y
-    if(obj_player_stats.hp &lt;= (obj_player_stats.maxhp/2))
+/*
+//Create health blackcat INFINITE -- Moved to move_state
+// Create positive/negative range for x, y
+if(obj_player_stats.hp &lt;= (obj_player_stats.maxhp/2))
+{
+    if(instance_exists(obj_blackcat))
     {
-        if(instance_exists(obj_blackcat))
-        {
-            //Do nothing
-        }
-        else
-        {
-            scr_blackcat();
-        }
+        //Do nothing
     }
+    else
+    {
+        scr_blackcat();
+    }
+}
 </string>
           </argument>
         </arguments>

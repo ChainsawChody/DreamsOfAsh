@@ -101,7 +101,7 @@ if(obj_player_stats.pages &gt;= 1)
         {
             if(instance_number(obj_pageshed) == 0)
             {
-                instance_create(232, 300, obj_pageshed)
+                instance_create(1300, 800, obj_pageshed)
             }
         }
     }

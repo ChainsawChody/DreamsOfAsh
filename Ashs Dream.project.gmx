@@ -180,6 +180,7 @@
     </sprites>
     <sprites name="System">
       <sprite>sprites\spr_blood</sprite>
+      <sprite>sprites\spr_lowhealth</sprite>
       <sprite>sprites\spr_bloodgore</sprite>
       <sprite>sprites\spr_bloodpool</sprite>
       <sprite>sprites\spr_cursor</sprite>
@@ -243,6 +244,7 @@
       <sprite>sprites\spr_vehicledead</sprite>
       <sprite>sprites\spr_vice</sprite>
       <sprite>sprites\spr_walllantern</sprite>
+      <sprite>sprites\spr_water</sprite>
     </sprites>
     <sprites name="Weapons">
       <sprite>sprites\spr_stick</sprite>
@@ -458,6 +460,7 @@
       <object>objects\obj_levelup</object>
       <object>objects\obj_lightdoor</object>
       <object>objects\obj_lighting</object>
+      <object>objects\obj_lowhealth</object>
       <object>objects\obj_music</object>
       <object>objects\obj_nightCycle</object>
       <object>objects\obj_pause_menu</object>
@@ -515,13 +518,10 @@
       <object>objects\obj_walllantern</object>
       <object>objects\obj_windowlight</object>
       <object>objects\obj_windowlight_top</object>
+      <object>objects\obj_water</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <rooms name="Cutscenes">
-      <room>rooms\rm_cRoad</room>
-      <room>rooms\rm_cOutro</room>
-    </rooms>
     <rooms name="World">
       <room>rooms\rm_bridge</room>
       <room>rooms\rm_woodshed</room>
@@ -534,6 +534,10 @@
       <room>rooms\rm_town</room>
       <room>rooms\rm_cemetary</room>
       <room>rooms\rm_lake</room>
+    </rooms>
+    <rooms name="Cutscenes">
+      <room>rooms\rm_cRoad</room>
+      <room>rooms\rm_cOutro</room>
     </rooms>
     <rooms name="Cabin">
       <room>rooms\rm_cabin</room>

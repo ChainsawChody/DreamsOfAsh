@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Initialize the hag
+            <string>/// Initialize the hellpiglet
 event_inherited();
 
 //Stats
@@ -164,6 +164,11 @@ if(instance_exists(obj_player))
     event_inherited();
     script_execute(state);
     sprite_index = sprite[face, movement];
+}
+
+if(obj_player_stats.pages &gt; 0){
+  instance_create(x, y, obj_enemy_pigman);
+  instance_destroy();
 }
 </string>
           </argument>
