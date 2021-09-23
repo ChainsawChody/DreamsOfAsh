@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///initialize
-
+image_alpha = 0;
 image_alpha = 0.25;
 image_xscale = 1000;
 image_yscale = 1000;
@@ -55,8 +55,22 @@ image_yscale = 1000;
             <kind>1</kind>
             <string>///Follow Player
 depth = -7000;
-x = (obj_player.x-(obj_player.x/2));
-y = (obj_player.y-(obj_player.y/2));
+
+if(instance_exists(obj_player)){
+  x = (obj_player.x-(obj_player.x/2));
+  y = (obj_player.y-(obj_player.y/2));
+}
+
+if(image_alpha == 1){
+  image_alpha += 0.01;
+}
+
+if(image_alpha == 1){
+  image_alpha -= 0.01;
+}
+
+
+
 
 //show_debug_message("Low Health X: " + string(obj_lowhealth.x));
 

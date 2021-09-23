@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-6000</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -129,24 +129,24 @@ if (instance_exists(obj_player)) {
   }
   //Low Health Alert
   if (obj_player_stats.hp &lt;= (obj_player_stats.maxhp * .2)) {
-  if (!object_exists(obj_lowhealth) &amp;&amp; instance_number(obj_lowhealth) == 1) {
+    if (!instance_exists(obj_lowhealth)) {
       instance_create(obj_player.x, obj_player.y, obj_lowhealth)
-    } else {
-      instance_destroy(obj_lowhealth);
     }
+  } else if (instance_number(obj_lowhealth) &gt; 0) {
+    instance_destroy(obj_lowhealth);
   }
-  //Death / deathroom
-  if (hp &lt;= 0) {
-    //show_message("You ded.")
-    if (room != rm_deathroom) {
-      room_goto(rm_deathroom);
-      if (instance_exists(obj_player)) {
-        obj_player.persistent = false;
-        //obj_darkness.persistent = false;
-      }
-    }
-  }
+}
 
+//Death / deathroom
+if (hp &lt;= 0) {
+  //show_message("You ded.")
+  if (room != rm_deathroom) {
+    room_goto(rm_deathroom);
+    if (instance_exists(obj_player)) {
+      obj_player.persistent = false;
+      //obj_darkness.persistent = false;
+    }
+  }
 }
 
 // Create Cat Summon alert
