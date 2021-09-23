@@ -131,7 +131,7 @@ if (obj_input.attack_key) && obj_player_stats.stamina >= 0 {
 if (obj_input.spell_key) && obj_player_stats.playerammo >= 1 {
   image_index = 0;
   state = scr_boom_state; //currently bugged out
-  
+
   //play boomstick sound
   if (!audio_is_playing(snd_boomstick)) {
     var altersoundSpell = snd_boomstick;

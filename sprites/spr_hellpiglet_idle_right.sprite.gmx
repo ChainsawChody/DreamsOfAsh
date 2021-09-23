@@ -8,7 +8,7 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>2</bbox_left>
-  <bbox_right>14</bbox_right>
+  <bbox_right>13</bbox_right>
   <bbox_top>5</bbox_top>
   <bbox_bottom>12</bbox_bottom>
   <HTile>0</HTile>
@@ -20,7 +20,6 @@
   <width>16</width>
   <height>16</height>
   <frames>
-    <frame index="0">images\spr_hellpiglet_walk_left_0.png</frame>
-    <frame index="1">images\spr_hellpiglet_walk_left_1.png</frame>
+    <frame index="0">images\spr_hellpiglet_idle_right_0.png</frame>
   </frames>
 </sprite>

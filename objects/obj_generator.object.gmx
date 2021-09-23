@@ -28,7 +28,7 @@
             <string>/// Initialize
 event_inherited();
 phy_fixed_rotation = true;
-image_speed = 0.4;
+image_speed = 0.7; //0.4
 </string>
           </argument>
         </arguments>

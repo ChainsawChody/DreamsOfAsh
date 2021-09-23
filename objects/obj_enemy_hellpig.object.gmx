@@ -230,7 +230,7 @@ scr_shadow_lifeform();
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>2</PhysicsObjectShape>
   <PhysicsObjectDensity>1</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -240,7 +240,10 @@ scr_shadow_lifeform();
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>12,16</point>
-    <point>8,12</point>
+    <point>20,16</point>
+    <point>16,22</point>
+    <point>6,22</point>
+    <point>4,16</point>
+    <point>12,14</point>
   </PhysicsShapePoints>
 </object>
