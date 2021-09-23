@@ -36,7 +36,7 @@ level = 1;
 attack = 1; //.5
 eyes = 0; //0
 wood = 0;
-playerammo = 50; //5
+playerammo = 10; //5
 ediblemeat = 5; //4
 pages = 0;
 

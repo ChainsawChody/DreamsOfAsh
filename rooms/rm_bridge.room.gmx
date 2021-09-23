@@ -63,7 +63,7 @@ Vbor: 108</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="846" y="704" name="inst_894D49A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="268" y="711" name="inst_894D49A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_view" x="32" y="32" name="inst_CDE1E15F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_stats" x="64" y="32" name="inst_B88BD00E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="1696" y="608" name="inst_D59799B7" locked="0" code="new_room = rm_town;&#xA;new_x = 272;&#xA;new_y = 329;" scaleX="0.439999997615814" scaleY="5.16129016876221" colour="4294967295" rotation="0"/>
@@ -73,7 +73,7 @@ Vbor: 108</code>
     <instance objName="obj_door" x="1472" y="446" name="inst_B01D1796" locked="0" code="if(obj_player_stats.pages == 0)&#xA;{&#xA;    //do nothing&#xA;}&#xA;else&#xA;{&#xA;    new_room = rm_slaughterhouse;&#xA;    new_x = 944;&#xA;    new_y = 622;&#xA;}" scaleX="1" scaleY="0.0967741906642914" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="871" y="503" name="inst_A209BFAA" locked="0" code="new_room = rm_cabinmain;&#xA;new_x = 241;&#xA;new_y = 410;&#xA;" scaleX="0.59375" scaleY="0.03125" colour="4294967295" rotation="0"/>
     <instance objName="obj_input" x="32" y="96" name="inst_61B5B823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_hellpig" x="1056" y="736" name="inst_F02FB5D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_hellpig" x="1548" y="704" name="inst_F02FB5D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="800" y="480" name="inst_D83F550C" locked="0" code="" scaleX="2.21875" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="890" y="480" name="inst_86019BCD" locked="0" code="" scaleX="2.1875" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="907" y="653" name="inst_47C11977" locked="0" code="text[0] = &quot;NORTH: Grandma Mulligan's Cabin.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -92,7 +92,7 @@ Vbor: 108</code>
     <instance objName="obj_hellpiglet" x="352" y="416" name="inst_64556D7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hellpiglet" x="384" y="416" name="inst_AF5C1717" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hellpiglet" x="384" y="384" name="inst_663EF59F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hellpiglet" x="940" y="704" name="inst_FBB26372" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hellpiglet" x="979" y="320" name="inst_FBB26372" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_music" x="160" y="32" name="inst_F0B8164A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="64" y="640" name="inst_79BBC509" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="800" name="inst_0CCF274A" locked="0" code="" scaleX="44" scaleY="1" colour="4294967295" rotation="0"/>
@@ -410,7 +410,7 @@ Vbor: 108</code>
     <instance objName="obj_bugs" x="982" y="544" name="inst_77ABC91C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bosstracker" x="224" y="96" name="inst_F3267D1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pagetracker" x="256" y="96" name="inst_0A16009C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_campfire" x="439" y="588" name="inst_29E50C9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_campfire" x="450" y="596" name="inst_29E50C9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="864" y="413" name="inst_0757C4EB" locked="0" code="new_room = rm_cabinhallway;&#xA;new_x = 207;&#xA;new_y = 98;&#xA;&#xA;" scaleX="1" scaleY="0.0967741906642914" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="804" y="704" name="inst_9F63A17F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lantern" x="865" y="412" name="inst_0B2B8F02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
