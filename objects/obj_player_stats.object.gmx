@@ -254,23 +254,23 @@ room_start_action = NEW_ROOM;
     //Draw HP
     //draw_text(28, 36, "HP: ")
     //draw_text(250, 40, string(hp) + "/" + string(maxhp));
-    hpcolor = make_colour_rgb(105, 29, 21)
+    hpcolor = make_colour_rgb(122, 27, 38) //(105, 29, 21)
     draw_rectangle_colour(29, 34, 226, 51, hpcolor, hpcolor, hpcolor, hpcolor, true)
-    draw_healthbar(30, 35, 225, 50, ((obj_player_stats.hp/obj_player_stats.maxhp) * 100), c_gray, hpcolor, c_red, 0, true, true)
+    draw_healthbar(30, 35, 225, 50, ((obj_player_stats.hp/obj_player_stats.maxhp) * 100), c_gray, hpcolor, hpcolor, 0, true, true)
     
     //Draw Stamina
     //draw_text(28, 52, "STM: ")
     //draw_text(225, 60, string(stamina) + "/" + string(maxstamina));
-    stamcolor = make_colour_rgb(255, 204, 102)
+    stamcolor = make_colour_rgb(255, 237, 138) //255, 204, 102
     draw_rectangle_colour(29, 54, 226, 66, stamcolor, stamcolor, stamcolor, stamcolor, true)
-    draw_healthbar(30, 55, 225, 65, ((obj_player_stats.stamina/obj_player_stats.maxstamina) * 100), c_gray, stamcolor, c_yellow, 0, true, true)
+    draw_healthbar(30, 55, 225, 65, ((obj_player_stats.stamina/obj_player_stats.maxstamina) * 100), c_gray, stamcolor, stamcolor, 0, true, true)
     
     //Draw Experience
     //draw_text(28, 68, "EXP: ")
     //draw_text(225, 80, string(expr) + "/" + string(maxexpr));
-    xpcolor = make_colour_rgb(102, 204, 255)
+    xpcolor = make_colour_rgb(128, 208, 255) //102, 204, 255
     draw_rectangle_colour(29, 69, 226, 76, xpcolor, xpcolor, xpcolor, xpcolor, true)
-    draw_healthbar(30, 70, 225, 75, ((obj_player_stats.expr/obj_player_stats.maxexpr) * 100), c_gray, xpcolor, c_aqua, 0, true, true)
+    draw_healthbar(30, 70, 225, 75, ((obj_player_stats.expr/obj_player_stats.maxexpr) * 100), c_gray, xpcolor, xpcolor, 0, true, true)
     
 //Stat descriptions ------------------------------------------------------------------------------------------
 
