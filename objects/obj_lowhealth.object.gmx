@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>///initialize
-image_alpha = 0;
-image_alpha = 0.25;
-image_xscale = 1000;
-image_yscale = 1000;
+image_xscale = 2000;
+image_yscale = 2000;
 
+red = false;
+image_alpha = 0;
 </string>
           </argument>
         </arguments>
@@ -53,31 +53,57 @@ image_yscale = 1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Follow Player
+            <string>///Follow Player &amp; Pulse Effect
 depth = -7000;
 
 if(instance_exists(obj_player)){
-  x = (obj_player.x-(obj_player.x/2));
-  y = (obj_player.y-(obj_player.y/2));
+  x = (obj_player.x-(obj_player.x/2)); //display_get_gui_width()/2;
+  y = (obj_player.y-(obj_player.y/2)); //display_get_gui_height()/2;
 }
 
-if(image_alpha == 1){
-  image_alpha += 0.01;
+//Pulse Effect
+fMin = 0.20; //0.10;
+fMax = 0.25; //0.20;
+fRate = 0.005; //0.005;
+
+if red == false{
+  if(image_alpha &lt; fMax){
+    image_alpha += fRate;
+  }else{
+    red = true;
+  }
+}else{
+  if image_alpha &gt; fMin{
+    image_alpha -= fRate;
+  }else{
+    red = false;
+  }
 }
 
-if(image_alpha == 1){
-  image_alpha -= 0.01;
-}
-
-
-
-
-//show_debug_message("Low Health X: " + string(obj_lowhealth.x));
 
 /*
-if(obj_player_stats.hp &gt;= (obj_player_stats.maxhp*.5)){
-  instance_destroy();
+if(image_alpha &gt;= 0 &amp;&amp; image_alpha &lt; 0.25){
+  image_alpha += .01;
+}else if(image_alpha != 0){
+  image_alpha -= .01;
 }
+*/
+show_debug_message("Low Health alpha: " + string(obj_lowhealth.image_alpha));
+
+/* dizzydratini's help 09.24.21
+red = false;
+while(red == false &amp;&amp; image_alpha &gt;= 0 &amp;&amp; image_alpha &lt; 0.25) {
+  image_alpha += 0.01;
+  show_debug_message("in increment loop: " + string(image_alpha));
+}
+show_debug_message("exited increment loop: " + string(image_alpha));
+red = true;
+while(red == true &amp;&amp; image_alpha &gt; 0 &amp;&amp; image_alpha &lt;= 0.25) {
+  image_alpha -= 0.01;
+  show_debug_message("in decrement loop: " + string(image_alpha));
+}
+show_debug_message("exited decrement loop: " + string(image_alpha));
+
 </string>
           </argument>
         </arguments>

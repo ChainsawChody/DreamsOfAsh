@@ -132,7 +132,7 @@ if (instance_exists(obj_player)) {
     if (!instance_exists(obj_lowhealth)) {
       instance_create(obj_player.x, obj_player.y, obj_lowhealth)
     }
-  } else if (instance_number(obj_lowhealth) &gt; 0) {
+  } else {
     instance_destroy(obj_lowhealth);
   }
 }
