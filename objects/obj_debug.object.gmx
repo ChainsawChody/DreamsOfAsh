@@ -28,19 +28,23 @@
             <string>/// Debug controls
 
 if (keyboard_check(ord('F'))) {
-	if (instance_exists(obj_lighting)) {
-		instance_destroy(obj_lighting);
-	}
+    if (instance_exists(obj_lighting)) {
+        instance_destroy(obj_lighting);
+    }
 }
 
 if (keyboard_check(ord('F'))) {
-	if (!instance_exists(obj_lighting)) {
-		instance_create(x, y, obj_lighting);
-	}
+    if (!instance_exists(obj_lighting)) {
+        instance_create(x, y, obj_lighting);
+    }
 }
 
 if (keyboard_check(ord('K'))) {
-	obj_player_stats.hp = 1;
+    obj_player_stats.hp = 1;
+}
+
+if (keyboard_check(ord('L'))) {
+    obj_player_stats.expr = (obj_player_stats.maxexpr - 1);
 }
 </string>
           </argument>

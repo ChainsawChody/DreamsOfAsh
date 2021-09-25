@@ -98,7 +98,13 @@ if (instance_exists(creator))
     var yforce = lengthdir_y(knockback, dir);
     with (other)
     {
+        //play sound here
         physics_apply_impulse(x, y, xforce, yforce);
+        repeat(40)
+        instance_create(x + (irandom_range(-5, 5)), y + (irandom_range(-5, 5)), obj_blood)
+        repeat(15)
+        instance_create(other.x + (irandom_range(-10, 10)), other.y + (irandom_range(-10, 10)), obj_blood)
+        
     }
 }
 
@@ -218,9 +224,9 @@ if(instance_exists(creator))
         {
             physics_apply_impulse(x, y, xforce, yforce);
             repeat(40)
-            instance_create(other.x + (irandom_range(-5, 5)), other.y + (irandom_range(-5, 5)), obj_blood)
+            instance_create(x + (irandom_range(-5, 5)), y + (irandom_range(-5, 5)), obj_bloodEnemy)
             repeat(15)
-            instance_create(other.x + (irandom_range(-10, 10)), other.y + (irandom_range(-10, 10)), obj_blood)
+            instance_create(other.x + (irandom_range(-10, 10)), other.y + (irandom_range(-10, 10)), obj_bloodEnemy)
         }
     }
     
@@ -228,7 +234,7 @@ if(instance_exists(creator))
     if (other.id != creator)
     {
         repeat(1)
-        instance_create(other.x + (irandom(10)), other.y + (irandom(10)), obj_blood)
+        instance_create(other.x + (irandom(10)), other.y + (irandom(10)), obj_bloodEnemy)
     }
 }
 </string>

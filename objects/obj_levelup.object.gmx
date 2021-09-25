@@ -89,10 +89,10 @@ if(image_alpha = 0)
 //Font Properties
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
-draw_set_font(fnt_general);
+draw_set_font(fnt_levelup);
 
 //Draw Intro Title
-draw_text_color(1100, 52, "+ LEVEL", c_aqua, c_white, c_white, c_white, image_alpha)
+draw_text_color(1100, 52, "+ LEVEL", c_yellow, c_white, c_white, c_white, image_alpha)
 
 
 

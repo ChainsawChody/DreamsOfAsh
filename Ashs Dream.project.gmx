@@ -180,6 +180,7 @@
     </sprites>
     <sprites name="System">
       <sprite>sprites\spr_blood</sprite>
+      <sprite>sprites\spr_bloodEnemy</sprite>
       <sprite>sprites\spr_lowhealth</sprite>
       <sprite>sprites\spr_bloodgore</sprite>
       <sprite>sprites\spr_bloodpool</sprite>
@@ -328,6 +329,7 @@
   </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_general</font>
+    <font>fonts\fnt_levelup</font>
     <font>fonts\fnt_title</font>
   </fonts>
   <objects name="objects">
@@ -442,6 +444,7 @@
       </objects>
       <object>objects\obj_beans_health</object>
       <object>objects\obj_blood</object>
+      <object>objects\obj_bloodEnemy</object>
       <object>objects\obj_bloodgore</object>
       <object>objects\obj_bloodpool</object>
       <object>objects\obj_butcher_health</object>

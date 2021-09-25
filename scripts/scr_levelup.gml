@@ -7,11 +7,11 @@ with(obj_player_stats) {
     level += 1;
     expr = expr - maxexpr;
     maxexpr += maxexpr;
-    hp += maxhp * 1.5; //+= 2
-    maxhp += maxhp * 1.5; //+= 2
-    stamina += 5;
-    maxstamina += 5;
-    attack += 1; //+= .5
+    hp = maxhp;
+    maxhp += (5 + irandom(2));
+    stamina += maxstamina;
+    maxstamina += (5 + irandom(2));
+    attack += 0.1; //+= .5
     if (!audio_is_playing(snd_levelup)) {
       audio_play_sound(snd_levelup, 1, false)
     }
