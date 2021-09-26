@@ -10,17 +10,17 @@ new_weapon.sprite_index = temp;
 // Change Player's Attack Value by Weapon Held - TEST
 // ---------------------------------------------------
 // 042 = Lantern
-// 147 = Stick
+// 156 = Stick
 // 149 = Axe
-// 150 = Chainsaw
+// 159 = Chainsaw
 
 var oldDM = damageModifier;
 //show_debug_message("oldDM: " + string(damageModifier));
 
 if(obj_player.weapon_sprite == 042) damageModifier = 1.0;
-if(obj_player.weapon_sprite == 147) damageModifier = 1.2;
+if(obj_player.weapon_sprite == 156) damageModifier = 1.2;
 if(obj_player.weapon_sprite == 149) damageModifier = 1.3;
-if(obj_player.weapon_sprite == 150) damageModifier = 1.5;
+if(obj_player.weapon_sprite == 159) damageModifier = 1.5;
 
 obj_player_stats.attack = (obj_player_stats.attack / oldDM) * damageModifier;
 

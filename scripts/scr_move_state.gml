@@ -93,9 +93,9 @@ if (obj_input.dash_key) && obj_player_stats.stamina >= DASH_COST {
 
 // Attack Key
 // 042 = Lantern
-// 147 = Stick
+// 156 = Stick
 // 149 = Axe
-// 150 = Chainsaw
+// 159 = Chainsaw
 if (obj_input.attack_key) && obj_player_stats.stamina >= 0 {
   image_index = 0;
   obj_player_stats.stamina -= 1;
@@ -107,7 +107,7 @@ if (obj_input.attack_key) && obj_player_stats.stamina >= 0 {
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(0.95, 1.05));
       audio_play_sound(altersoundAttack, 1, false);
-    } else if (obj_player.weapon_sprite = 147) { //stick swing
+    } else if (obj_player.weapon_sprite = 156) { //stick swing
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(1.3, 1.4));
       audio_play_sound(altersoundAttack, 1, false);
@@ -115,7 +115,7 @@ if (obj_input.attack_key) && obj_player_stats.stamina >= 0 {
       var altersoundAttack = snd_swing;
       audio_sound_pitch(altersoundAttack, random_range(0.8, 0.9));
       audio_play_sound(altersoundAttack, 1, false);
-    } else if (obj_player.weapon_sprite = 150) { //chainsaw swing
+    } else if (obj_player.weapon_sprite = 159) { //chainsaw swing
       var altersoundAttack = snd_chainsawswing;
       audio_sound_pitch(altersoundAttack, random_range(0.95, 1.05));
       audio_play_sound(altersoundAttack, 1, false);

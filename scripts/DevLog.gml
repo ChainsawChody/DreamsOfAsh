@@ -149,3 +149,14 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
     - Added boomstick animation
 09/22/21
     - Added gore animation on lifeform death
+09/23/21
+    - Added directional walk animation for piglet
+    - Added low health alert pulse
+    - Made edits to rm_lake (moving water)
+    - Edits to spr_window and spr_bug
+09/24/21
+    - Darkened GUI bars, fixed bosslifeform undefeatable bug
+09/25/21
+    - Balanced level up stats
+    - Added enemy blood effect
+    - Recolored enemy blood (transparent black)
