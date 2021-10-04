@@ -78,6 +78,7 @@ page_lake = false;
             <kind>1</kind>
             <string>///Check page states
 
+
 /*
 //Beans
 if(room == rm_lake)
@@ -92,82 +93,68 @@ if(room == rm_lake)
 }
 */
 
-if(obj_player_stats.pages &gt;= 1)
-{
-    //Shed
-    if(room == rm_woodshed)
-    {
-        if(page_shed == false)
-        {
-            if(instance_number(obj_pageshed) == 0)
-            {
-                instance_create(1300, 800, obj_pageshed)
-            }
-        }
+if (obj_player_stats.pages &gt;= 1) {
+  //Shed
+  if (room == rm_woodshed) {
+    if (page_shed == false) {
+      if (instance_number(obj_pageshed) == 0) {
+        instance_create(1300, 800, obj_pageshed)
+      }
     }
-    
-    //Cellar
-    if(room == rm_cabincellar)
-    {
-        if(page_cellar == false)
-        {
-            if(instance_number(obj_pagecellar) == 0)
-            {
-                instance_create(336, 114, obj_pagecellar)
-            }
-        }
+  }
+  //Cellar
+  if (room == rm_cabincellar) {
+    if (page_cellar == false) {
+      if (instance_number(obj_pagecellar) == 0) {
+        instance_create(336, 114, obj_pagecellar)
+      }
     }
+  }
 
-    /*
-    //Scarecrow
-    if(room == rm_cornfield)
-    {
-        if(page_scarecrow == false)
-        {
-            if(instance_number(obj_pagescarecrow) == 0)
-            {
-                instance_create(948, 504, obj_pagescarecrow)
-            }
-        }
-    }
+  /*
+  //Scarecrow
+  if(room == rm_cornfield)
+  {
+      if(page_scarecrow == false)
+      {
+          if(instance_number(obj_pagescarecrow) == 0)
+          {
+              instance_create(948, 504, obj_pagescarecrow)
+          }
+      }
+  }
     
     
-    //Cook
-    if(room == rm_slaughterhouse)
-    {
-        if(page_cook == false)
-        {
-            if(instance_number(obj_pagecook) == 0)
-            {
-                instance_create(948, 504, obj_pagecook)
-            }
-        }
+  //Cook
+  if(room == rm_slaughterhouse)
+  {
+      if(page_cook == false)
+      {
+          if(instance_number(obj_pagecook) == 0)
+          {
+              instance_create(948, 504, obj_pagecook)
+          }
+      }
+  }
+  */
+
+  //Cemetary
+  if (room == rm_cemetary) {
+    if (page_cemetary == false) {
+      if (instance_number(obj_pagecemetary) == 0) {
+        instance_create(846, 209, obj_pagecemetary)
+      }
     }
-    */
-    
-    //Cemetary
-    if(room == rm_cemetary)
-    {
-        if(page_cemetary == false)
-        {
-            if(instance_number(obj_pagecemetary) == 0)
-            {
-                instance_create(846, 209, obj_pagecemetary)
-            }
-        }
+  }
+
+  //Lake
+  if (room == rm_lake) {
+    if (page_lake == false) {
+      if (instance_number(obj_pagelake) == 0) {
+        instance_create(1700, 100, obj_pagelake)
+      }
     }
-    
-    //Lake
-    if(room == rm_lake)
-    {
-        if(page_lake == false)
-        {
-            if(instance_number(obj_pagelake) == 0)
-            {
-                instance_create(1700, 100, obj_pagelake)
-            }
-        }
-    }
+  }
 }
 </string>
           </argument>

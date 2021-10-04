@@ -106,6 +106,9 @@
         <sprite>sprites\spr_hellpiglet_walk_right</sprite>
         <sprite>sprites\spr_hellpiglet_walk_up</sprite>
       </sprites>
+      <sprites name="Mannequin">
+        <sprite>sprites\spr_mannequin_IdleDown</sprite>
+      </sprites>
       <sprites name="Pigman">
         <sprite>sprites\spr_enemy_pigman</sprite>
         <sprite>sprites\spr_enemy_pigheadless</sprite>

@@ -7,9 +7,9 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>2</bbox_left>
-  <bbox_right>29</bbox_right>
-  <bbox_top>3</bbox_top>
+  <bbox_left>0</bbox_left>
+  <bbox_right>30</bbox_right>
+  <bbox_top>2</bbox_top>
   <bbox_bottom>29</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -27,5 +27,6 @@
     <frame index="4">images\spr_buckshot_4.png</frame>
     <frame index="5">images\spr_buckshot_5.png</frame>
     <frame index="6">images\spr_buckshot_6.png</frame>
+    <frame index="7">images\spr_buckshot_7.png</frame>
   </frames>
 </sprite>

@@ -142,8 +142,8 @@ if (obj_input.spell_key) && obj_player_stats.playerammo >= 1 {
     var p = instance_create(x, y, obj_projectile);
     //Decrease ammo according to shots fired
     obj_player_stats.playerammo -= 1; //(instance_number(obj_projectile));
-    var xforce = lengthdir_x(2, face * 90); //(20, face*90);
-    var yforce = lengthdir_y(2, face * 90);
+    var xforce = lengthdir_x(3, face * 90); //(20, face*90);
+    var yforce = lengthdir_y(3, face * 90);
     p.creator = id;
     with(p) {
       physics_apply_impulse(x, y, xforce, yforce);
