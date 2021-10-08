@@ -12,3 +12,7 @@ Trailer here --> https://youtu.be/ka4Qq3qRl4Y
 ### Excessive Gore
 
 <img src="https://media.discordapp.net/attachments/822179667846103040/895892857418817586/GIF_9-22-2021_12-00-27_PM.gif" height="250">
+
+### Docile Animals
+
+<img src="https://media.discordapp.net/attachments/822179667846103040/895893676302155856/GIF_9-16-2021_2-46-36_PM.gif" height="250">
