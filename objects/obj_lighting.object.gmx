@@ -128,19 +128,24 @@ else if(alpha &gt;= 0.9)
             <string>/// Set darkness
 //Fix fullscreen surface
 
-if(instance_exists(obj_lighting) &amp;&amp; instance_number(obj_lighting) == 1)
-{
-    var darknessvalue = 245;
-    var darkness = make_colour_rgb(darknessvalue, darknessvalue, darknessvalue);
-    surface_set_target(light);
-    draw_set_color(darkness);
-    draw_rectangle(0, 0, view_wview, view_hview, false);
-    surface_reset_target();
+//original lighting code
+if(instance_exists(obj_player)){
+  if(obj_player_stats.pages &gt; 0){
+    if(instance_exists(obj_lighting) &amp;&amp; instance_number(obj_lighting) == 1)
+    {
+      var darknessvalue = 245;
+      var darkness = make_colour_rgb(darknessvalue, darknessvalue, darknessvalue);
+      surface_set_target(light);
+      draw_set_color(darkness);
+      draw_rectangle(0, 0, view_wview, view_hview, false);
+      surface_reset_target();
+    }else{
+        instance_destroy();
+    }
+  }
 }
-else
-{
-    instance_destroy();
-}
+
+
 
 /*
 if(room != rm_pause or rm_deathroom)

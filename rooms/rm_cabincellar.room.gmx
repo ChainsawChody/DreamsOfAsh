@@ -55,7 +55,7 @@
     <instance objName="obj_lighting" x="0" y="0" name="inst_261A8984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_playerammo" x="147" y="110" name="inst_E750C6C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_roomtitle" x="32" y="0" name="inst_12A89AB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fog" x="224" y="640" name="inst_ED9558B8" locked="0" code="" scaleX="27.28125" scaleY="23.375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fog" x="896" y="672" name="inst_ED9558B8" locked="0" code="" scaleX="27.28125" scaleY="23.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabindoor" x="96" y="224" name="inst_B174551D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="64" y="64" name="inst_7F1B3AF4" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="288" y="96" name="inst_4FDB64E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -69,7 +69,10 @@
     <instance objName="obj_wall" x="192" y="352" name="inst_43914E51" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="384" name="inst_62621DC5" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="352" y="64" name="inst_7CA1E071" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_npc_lantern" x="68" y="348" name="inst_54F4FA50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightinvisible" x="73" y="357" name="inst_0DDBED98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="64" y="288" name="inst_300F118D" locked="0" code="if(obj_player_stats.pages &gt; 0)&#xA;{&#xA;  instance_destroy();&#xA;}&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nightlightinvisible" x="192" y="128" name="inst_61C9E2FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_hag" x="337" y="143" name="inst_84ACEBE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="0" y="480" w="32" h="32" xo="133" yo="34" id="10014585" name="inst_FC699FB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -184,7 +187,6 @@
     <tile bgName="bg_buildings" x="288" y="352" w="32" h="32" xo="100" yo="67" id="10018182" name="inst_54CF211F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="320" y="352" w="32" h="32" xo="100" yo="67" id="10018183" name="inst_F728AE45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="320" y="320" w="32" h="32" xo="100" yo="67" id="10018184" name="inst_1819AD35" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_buildings" x="96" y="192" w="32" h="32" xo="100" yo="67" id="10018185" name="inst_A85A2438" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="64" y="160" w="32" h="32" xo="100" yo="67" id="10018187" name="inst_2BA28BF8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="64" y="128" w="32" h="32" xo="100" yo="67" id="10018188" name="inst_740D3C11" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="64" y="96" w="32" h="32" xo="100" yo="67" id="10018189" name="inst_A8C00382" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -222,7 +224,6 @@
     <tile bgName="bg_buildings" x="224" y="288" w="32" h="32" xo="100" yo="67" id="10031148" name="inst_05446DA8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="224" y="320" w="32" h="32" xo="100" yo="67" id="10031149" name="inst_CEF5FDF4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="224" y="352" w="32" h="32" xo="100" yo="67" id="10031150" name="inst_F8DB177A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_buildings" x="96" y="192" w="32" h="32" xo="100" yo="133" id="10031168" name="inst_594D3FD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="128" y="192" w="32" h="32" xo="1" yo="1" id="10033357" name="inst_DCEA5D6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="160" y="192" w="32" h="32" xo="1" yo="1" id="10033358" name="inst_F9446A13" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="192" y="192" w="32" h="32" xo="1" yo="1" id="10033359" name="inst_E51F1BAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -329,6 +330,7 @@
     <tile bgName="bg_buildings" x="288" y="96" w="32" h="32" xo="67" yo="133" id="10033586" name="inst_0F164037" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="288" y="160" w="32" h="32" xo="67" yo="133" id="10033587" name="inst_21369091" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="288" y="64" w="32" h="32" xo="67" yo="133" id="10033588" name="inst_C45F9D40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_buildings" x="96" y="192" w="32" h="32" xo="100" yo="67" id="10038447" name="inst_23946D56" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

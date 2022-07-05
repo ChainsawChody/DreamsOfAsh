@@ -157,30 +157,23 @@ if(obj_player_stats.pages &gt;= 7)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Que dialog sound
+            <string>/// Que dialog sound
+var snd1 = snd_old_woman_s1_t0;
 
-//Text[0]
-if(point_distance(x, y, obj_player.x, obj_player.y) &lt;= 32)
-{
-    if(instance_exists(obj_dialog))
-    {
-        if(obj_dialog.text_page == 0 &amp;&amp; textplay)
-        {
-            if(!audio_is_playing(snd_old_woman_s1_t0))
-            {
-                audio_play_sound(snd_old_woman_s1_t0, 1, false);
-                textplay = false;
-            }
-            else
-            {
-                textplay = true;
-            }
-        }
-    }
-    else
-    {
+// Text[0]
+if (point_distance(x, y, obj_player.x, obj_player.y) &lt;= 32) {
+  if (instance_exists(obj_dialog)) {
+    if (obj_dialog.text_page == 0 &amp;&amp; textplay) {
+      if (!audio_is_playing(snd1)) {
+        audio_play_sound(snd1, 1, false);
+        textplay = false;
+      } else {
         textplay = true;
+      }
     }
+  } else {
+    audio_stop_sound(snd1) textplay = true;
+  }
 }
 </string>
           </argument>

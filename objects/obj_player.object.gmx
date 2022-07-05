@@ -42,8 +42,8 @@ image_speed = 0;
 
 //Speeds
 spd = 2;        //2
-spdwalk = 2;    //2
-spdsprint = 10;  //3
+spdwalk = 6;    //2
+spdsprint = 3;  //3
 spdsneak = 1;   //1
 
 hspd = 0;

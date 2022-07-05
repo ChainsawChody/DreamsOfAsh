@@ -159,18 +159,22 @@ if(hp &lt; 2)
 
 //Play pig alert sound
 
-var pigdis = 100;
-if(distance_to_object(obj_player) &lt; pigdis)
-{
-    audio_sound_gain(snd_pig_idle, (pigdis - distance_to_object(obj_player))/pigdis, 0);
-    if(!audio_is_playing(snd_pig_idle))
-    {
-        var altersound = snd_pig_idle;
-        audio_sound_pitch(altersound, random_range(0.9, 1.1));
-        audio_play_sound(altersound, 1, false);
-    }
+var pigdis = 25
+if(hp &gt; 0){
+  if(distance_to_object(obj_player) &lt; pigdis)
+  {
+      audio_sound_gain(snd_pig_idle, (pigdis - distance_to_object(obj_player))/pigdis, 0);
+      if(!audio_is_playing(snd_pig_idle))
+      {
+          var altersound = snd_pig_idle;
+          audio_sound_pitch(altersound, random_range(0.9, 1.1));
+          audio_play_sound(altersound, 1, false);
+      }
+  }
+}else{
+  pigdis = 0
+  audio_stop_sound(snd_pig_idle);
 }
-
 
 </string>
           </argument>

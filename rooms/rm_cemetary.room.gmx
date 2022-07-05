@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_sign" x="784" y="628" name="inst_FF51D129" locked="0" code="text[0] = &quot;Mulligan Farm&quot;;&#xA;text[1] = &quot;Current population: 6&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="784" y="628" name="inst_FF51D129" locked="0" code="text[0] = &quot;Mulligan Farm&quot;;&#xA;text[1] = &quot;Current population: 6&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="413" y="356" name="inst_CDAC7A80" locked="0" code="text[0] = &quot;Follow road to Mulligan Farm.&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="638" y="380" name="inst_0DDDA460" locked="0" code="new_room = rm_town;&#xA;new_x = 688;&#xA;new_y = 404;&#xA;" scaleX="3.22000002861023" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="224" name="inst_D8A3974B" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
@@ -241,7 +241,7 @@
     <instance objName="obj_tombstone" x="781" y="270" name="inst_88901E17" locked="0" code="text[0] = &quot;[The tombstone reads... ]&quot;&#xA;text[1] = &quot;- HERE LIES UBERDORK&quot;&#xA;text[2] = &quot;''Hiding from Yolee.''&quot; //Razputini&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tombstone" x="911" y="270" name="inst_1F6AB257" locked="0" code="text[0] = &quot;[The tombstone reads... ]&quot; &#xA;text[1] = &quot;- HERE LIES BETTY -&quot;&#xA;text[2] = &quot;''She was the craziest of them all.''&quot; //tempting" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tombstone" x="734" y="194" name="inst_5FC32D66" locked="0" code="text[0] = &quot;[The tombstone reads... ]&quot;;&#xA;text[1] = &quot;''... Waiting for Duck, going for the draw. ''&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fog" x="864" y="384" name="inst_D1DEF7AD" locked="0" code="" scaleX="39.40625" scaleY="20.65625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fog" x="832" y="576" name="inst_D1DEF7AD" locked="0" code="" scaleX="39.40625" scaleY="20.65625" colour="4294967295" rotation="0"/>
     <instance objName="obj_tombstone" x="869" y="274" name="inst_EAE7F8FF" locked="0" code="text[0] = &quot;[The tombstone reads... ]&quot;&#xA;text[1] = &quot;- HERE LIES BO RAY LOWDER -&quot;&#xA;text[2] = &quot;''He burst while drinking a seidlitz powder.''&quot;&#xA;text[3] = &quot;''Called from this world to his heavenly rest, ''&quot;&#xA;text[4] = &quot;''he should've waited until it effervesced.''&quot;;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tombstone" x="1106" y="556" name="inst_2F0040D0" locked="0" code="text[0] = &quot;[The tombstone reads... ]&quot;&#xA;text[1] = &quot;- HERE LIES JINX -&quot;&#xA;text[2] = &quot;''He was the best barn kitty in the whole, wide world.'']&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_roomtitle" x="32" y="0" name="inst_958D9C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

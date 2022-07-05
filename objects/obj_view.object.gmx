@@ -54,22 +54,105 @@ if (instance_exists(obj_player))
           <argument>
             <kind>1</kind>
             <string>/// Move 10% towards the player
+//---------------------------------
+// METHOD 1
+//---------------------------------
+//BACKUP (Working)
+var lag = 0.25; //0.75
+if (instance_exists(obj_player))
+{
+    x += ((obj_player.x - x) * lag)*sqrt(2); // * 0.3
+    y += ((obj_player.y - y) * lag)*sqrt(2); // * 0.3
+}
+
+
+/*
+//---------------------------------
+// METHOD 1
+//---------------------------------
+//BACKUP (Working)
 var lag = 0.75; //0.75
-
 if (instance_exists(obj_player))
 {
     x += (obj_player.x - x) * lag; // * 0.3
     y += (obj_player.y - y) * lag; // * 0.3
 }
 
-/* BACKUP (Working)
+//---------------------------------
+// METHOD 2
+//---------------------------------
+var xTo, yTo;
+move_towards_point(mouse_x, mouse_y, 0);
+xTo = obj_player.x + lengthdir_x(min(2, distance_to_point(mouse_x, mouse_y)), direction)
+yTo = obj_player.y + lengthdir_y(min(2, distance_to_point(mouse_x, mouse_y)), direction)
+
+x += (xTo-x)/2;
+y += (yTo-y)/2;
+
+view_xview = -(view_wview/2) + x;
+view_yview = -(view_hview/2) + y;
+
+view_xview = clamp(view_xview, 0, room_width-view_wview);
+
+
+//---------------------------------
+// METHOD 3
+//---------------------------------
+// dizzydratini help 06.29.22
+var lag = 0.75; //0.75
+var xTo = obj_player.x;
+var yTo = obj_player.y;
+
 if (instance_exists(obj_player))
 {
-    x += (obj_player.x - x) * lag; // * 0.3
-    y += (obj_player.y - y) * lag; // * 0.3
+  if( x != xTo || y != yTo)
+  {
+    //Horizontal
+    while(x &lt; xTo &amp;&amp; y == yTo)
+    {
+      x += lag;
+    }
+    while(x &gt; xTo &amp;&amp; y == yTo)
+    {
+      x -= lag;
+    }
+    //Vertical
+    while(y &lt; yTo &amp;&amp; x == xTo)
+    {
+      y += lag;
+    }
+    while(y &gt; yTo &amp;&amp; x == xTo)
+    {
+      y -= lag;
+    }
+    //Diagonal
+    while(x &lt; xTo &amp;&amp; y &lt; yTo)
+    {
+      x += lag * sqrt(2);
+      y += lag * sqrt(2);
+    }
+    while(x &lt; xTo &amp;&amp; y &gt; yTo)
+    {
+      x += lag * sqrt(2);
+      y -= lag * sqrt(2);
+    }
+    while(x &gt; xTo &amp;&amp; y &gt; yTo)
+    {
+      x -= lag * sqrt(2);
+      y -= lag * sqrt(2);
+    }
+    while(x &gt; xTo &amp;&amp; y &lt; yTo)
+    {
+      x -= lag * sqrt(2);
+      y += lag * sqrt(2);
+    }
+  }
+  else
+  {
+    x = xTo;
+    y = yTo;
+  }
 }
-*/
-
 </string>
           </argument>
         </arguments>

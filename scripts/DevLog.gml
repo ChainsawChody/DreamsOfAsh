@@ -1,6 +1,9 @@
 /*
-
 ------------ Game change notes ------------------
+
+---------------
+-- Year 2018 -- 
+---------------
 8/9/18
 ✓   - rm_cabin: Complete walls and sprite for entering room
     - rm_cabin: Add windows to cabin with light effect
@@ -133,8 +136,10 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
 10/18/2018
 !   - Add pig outside of butcher room, chained up, unleashed once close enough, page on death.
     - Added buck head movement (1 out of 10 chance to trigger)
-    
+
+---------------    
 -- Year 2021 --
+---------------
 09/13/21
     - Fixed misreferenced audio bug by marking all sounds as "Compressed - Streamed"
     - Fixed obj_view jolt on new room (setting x & y to player on room end)
@@ -160,3 +165,19 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
     - Balanced level up stats
     - Added enemy blood effect
     - Recolored enemy blood (transparent black)
+
+---------------    
+-- Year 2022 --
+---------------
+06/29/22
+    - Added mouse movement to obj_view
+    - Added mb_left as additional attack button
+    - Adjusted Old_Woman sound file
+?   - Recreate/Condense map world
+
+07/05/22
+    - Replaced pigmen idle audio and fixed gain for multiple instances
+    - Resized ALL cabin rooms + lighting
+    - Added basement barrier unless page found
+    - Added cabin wall cutaway, fixed depth (-y-100)
+    - Game starts at day, turns to night upon first page pickup

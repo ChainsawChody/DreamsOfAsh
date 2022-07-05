@@ -55,16 +55,16 @@
     <instance objName="obj_cabinwalledge" x="256" y="160" name="inst_FD7A2E3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabinwalledge" x="224" y="160" name="inst_DD8C25B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lighting" x="0" y="0" name="inst_261A8984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightinvisible" x="196" y="148" name="inst_D5C2E214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightinvisible" x="207" y="138" name="inst_D5C2E214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="304" y="89" name="inst_FBBEB1BB" locked="0" code="" scaleX="1.80645155906677" scaleY="2.70967745780945" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="57" name="inst_65CA23ED" locked="0" code="" scaleX="4.3125" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lantern" x="241" y="115" name="inst_51E3108E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bath_mirror" x="244" y="101" name="inst_3260897E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bath_mirror" x="246" y="97" name="inst_3260897E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bath_sink" x="240" y="116" name="inst_C9397439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bath_tub" x="264" y="120" name="inst_9A57924F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bath_tub" x="267" y="125" name="inst_9A57924F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="175" name="inst_73FED999" locked="0" code="" scaleX="4.3125" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabinwalledge" x="224" y="96" name="inst_5E48D0E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabinwalledge" x="256" y="96" name="inst_55AD1702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nightlightinvisible" x="373" y="127" name="inst_8508AC91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="224" y="128" w="32" h="32" xo="34" yo="34" id="10013530" name="inst_DA947131" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

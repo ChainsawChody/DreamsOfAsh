@@ -4,9 +4,9 @@ left_key = keyboard_check(ord('A'));
 down_key = keyboard_check(ord('S'));
 right_key = keyboard_check(ord('D'));
 
-dash_key = keyboard_check_pressed(ord('C')); // * to be removed, replaced by sprint
+//dash_key = keyboard_check_pressed(ord('C')); // * to be removed, replaced by sprint
 sprint_key = keyboard_check(vk_lshift); //ord('C')
-attack_key = keyboard_check_pressed(vk_space); //ord('X')
+attack_key = keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left); //ord('X')
 interact_key = keyboard_check_pressed(ord('E'));
 spell_key = keyboard_check_pressed(ord('X'));
 swap_key = keyboard_check_pressed(ord('E'));
@@ -35,7 +35,7 @@ if (gamepad_is_connected(0))
     spell_key = gamepad_button_check_pressed(0, gp_shoulderrb);
     swap_key = gamepad_button_check_pressed(0, gp_face1);
     sneak_key = gamepad_button_check(0, gp_shoulderl);
-    use_key = gamepad_button_check_pressed(0, gp_face4);
+    use_key = (gamepad_button_check_pressed(0, gp_face4)) or (keyboard_check_pressed(ord('Q')));
     cat_key = gamepad_button_check_pressed(0, gp_face2);
   
     pause_key = gamepad_button_check_pressed(0, gp_start);

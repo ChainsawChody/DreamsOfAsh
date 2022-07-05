@@ -62,7 +62,7 @@ if (speed == 0) {
 // Regen stamina when not sprinting
 if (!obj_input.sprint_key) {
   if (obj_player_stats.stamina < obj_player_stats.maxstamina) {
-    obj_player_stats.stamina += (obj_player_stats.maxstamina * .005) //.05;
+    obj_player_stats.stamina += (obj_player_stats.maxstamina * .01) //.05;
   } else {
     obj_player_stats.stamina = obj_player_stats.maxstamina
   }
@@ -80,6 +80,7 @@ if (obj_input.sneak_key) && (obj_input.up_key or obj_input.left_key or obj_input
 // -----------------------------
 
 // Dash Key
+/*
 if (obj_input.dash_key) && obj_player_stats.stamina >= DASH_COST {
   var xdir = lengthdir_x(8, face * 90);
   var ydir = lengthdir_y(8, face * 90);
@@ -90,7 +91,7 @@ if (obj_input.dash_key) && obj_player_stats.stamina >= DASH_COST {
   obj_player_stats.stamina -= DASH_COST;
   obj_player_stats.alarm[0] = room_speed;
 }
-
+*/
 // Attack Key
 // 042 = Lantern
 // 156 = Stick

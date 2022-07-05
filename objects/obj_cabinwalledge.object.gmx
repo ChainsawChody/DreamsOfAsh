@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Control depth
-depth = -y;
+depth = -y-100;
 </string>
           </argument>
         </arguments>
@@ -68,8 +68,8 @@ depth = -y;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,8</point>
-    <point>32,8</point>
+    <point>0,22</point>
+    <point>32,22</point>
     <point>32,32</point>
     <point>0,32</point>
   </PhysicsShapePoints>
