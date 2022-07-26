@@ -233,10 +233,8 @@
     <instance objName="obj_wall" x="1152" y="713" name="inst_6FCCD589" locked="0" code="" scaleX="4" scaleY="2.70967745780945" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1328" y="680" name="inst_56937BC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_treedark" x="1355" y="837" name="inst_5C65B887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fog" x="672" y="480" name="inst_D1DEF7AD" locked="0" code="" scaleX="28.71875" scaleY="14.65625" colour="4294967295" rotation="0"/>
     <instance objName="obj_tombstone" x="1106" y="556" name="inst_2F0040D0" locked="0" code="text[0] = &quot;[The tombstone reads... ]&quot;&#xA;text[1] = &quot;- HERE LIES JINX -&quot;&#xA;text[2] = &quot;''He was the best barn kitty in the whole, wide world.'']&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_roomtitle" x="32" y="0" name="inst_958D9C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fog" x="1792" y="704" name="inst_DE3EEB53" locked="0" code="" scaleX="20.78125" scaleY="20.6451606750488" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="1312" y="480" name="inst_79BF16B6" locked="0" code="text[0] = &quot;This way to Mulligan Lake.&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_grandpa" x="1191" y="610" name="inst_82C52A6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc_childf" x="1061" y="742" name="inst_33B6A233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

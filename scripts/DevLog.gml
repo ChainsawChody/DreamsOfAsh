@@ -181,3 +181,9 @@ X   - Add fog to graveyard, if(instance_exists(obj_tombstone) instance_create(x,
     - Added basement barrier unless page found
     - Added cabin wall cutaway, fixed depth (-y-100)
     - Game starts at day, turns to night upon first page pickup
+?   - Add variable for global lighting color to chage to dawn/day/night etc.
+
+07/06/22
+  - Added new fog scroll
+  - Added more collisions to cabin
+  - Added rain, top-down (broken)

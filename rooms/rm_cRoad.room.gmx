@@ -73,14 +73,13 @@ window_set_cursor(cr_none)</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_playercar" x="-824" y="404" name="inst_BA167B23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cCarLight" x="32" y="0" name="inst_2D034B69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_playercar" x="-126" y="398" name="inst_BA167B23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_title_screen" x="64" y="0" name="inst_F29FB8BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_input" x="96" y="0" name="inst_49C5D137" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boomcollision" x="1918" y="385" name="inst_E612B7EA" locked="0" code="text[0] = &quot;Man, I forgot how long this drive was.&quot;&#xA;&#xA;" scaleX="0.15625" scaleY="0.96875" colour="4294967295" rotation="0"/>
     <instance objName="obj_boomcollision" x="2223" y="383" name="inst_F7B8DA9F" locked="0" code="text[0] = &quot;Looks like I'm almost there...&quot;&#xA;" scaleX="0.125" scaleY="1.03125" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fog" x="1892" y="558" name="inst_ED413774" locked="0" code="" scaleX="68.25" scaleY="14.5483875274658" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lighting" x="0" y="0" name="inst_2FDDE79C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fogController" x="128" y="0" name="inst_422939C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rain_generator" x="160" y="0" name="inst_706C42D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="512" y="384" w="32" h="32" xo="67" yo="67" id="10015946" name="inst_05B6A98B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

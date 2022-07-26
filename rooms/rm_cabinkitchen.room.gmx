@@ -55,7 +55,7 @@
     <instance objName="obj_cabinwalledge" x="256" y="256" name="inst_172E357F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabinwalledge" x="288" y="256" name="inst_D89A9B27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lighting" x="0" y="0" name="inst_261A8984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightinvisible" x="217" y="233" name="inst_E8D00195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightinvisible" x="234" y="295" name="inst_E8D00195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="320" y="192" name="inst_629C8880" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="230" y="223" name="inst_C263956F" locked="0" code="" scaleX="2.35483860969543" scaleY="0.21875" colour="4294967295" rotation="0"/>
     <instance objName="obj_necronomicon_page" x="290" y="245" name="inst_41C8A09D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

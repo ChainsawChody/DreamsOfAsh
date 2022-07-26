@@ -55,7 +55,6 @@
     <instance objName="obj_lighting" x="0" y="0" name="inst_261A8984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_playerammo" x="147" y="110" name="inst_E750C6C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_roomtitle" x="32" y="0" name="inst_12A89AB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fog" x="896" y="672" name="inst_ED9558B8" locked="0" code="" scaleX="27.28125" scaleY="23.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabindoor" x="96" y="224" name="inst_B174551D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="64" y="64" name="inst_7F1B3AF4" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="288" y="96" name="inst_4FDB64E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -73,6 +72,7 @@
     <instance objName="obj_wall" x="64" y="288" name="inst_300F118D" locked="0" code="if(obj_player_stats.pages &gt; 0)&#xA;{&#xA;  instance_destroy();&#xA;}&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nightlightinvisible" x="192" y="128" name="inst_61C9E2FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_hag" x="337" y="143" name="inst_84ACEBE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fogController" x="64" y="0" name="inst_79E9DD12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="0" y="480" w="32" h="32" xo="133" yo="34" id="10014585" name="inst_FC699FB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

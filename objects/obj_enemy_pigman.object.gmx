@@ -159,7 +159,7 @@ if(hp &lt; 2)
 
 //Play pig alert sound
 
-var pigdis = 25
+var pigdis = 50
 if(hp &gt; 0){
   if(distance_to_object(obj_player) &lt; pigdis)
   {
@@ -170,6 +170,9 @@ if(hp &gt; 0){
           audio_sound_pitch(altersound, random_range(0.9, 1.1));
           audio_play_sound(altersound, 1, false);
       }
+  }else if(distance_to_object(obj_player) &gt; 100){
+    //pigdis = 0
+    //audio_stop_sound(snd_pig_idle);
   }
 }else{
   pigdis = 0

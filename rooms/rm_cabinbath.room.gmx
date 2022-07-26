@@ -55,16 +55,16 @@
     <instance objName="obj_cabinwalledge" x="256" y="160" name="inst_FD7A2E3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabinwalledge" x="224" y="160" name="inst_DD8C25B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lighting" x="0" y="0" name="inst_261A8984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightinvisible" x="207" y="138" name="inst_D5C2E214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="304" y="89" name="inst_FBBEB1BB" locked="0" code="" scaleX="1.80645155906677" scaleY="2.70967745780945" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="57" name="inst_65CA23ED" locked="0" code="" scaleX="4.3125" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bath_mirror" x="246" y="97" name="inst_3260897E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bath_sink" x="240" y="116" name="inst_C9397439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bath_tub" x="267" y="125" name="inst_9A57924F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="175" name="inst_73FED999" locked="0" code="" scaleX="4.3125" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cabinwalledge" x="224" y="96" name="inst_5E48D0E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cabinwalledge" x="256" y="96" name="inst_55AD1702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nightlightinvisible" x="373" y="127" name="inst_8508AC91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="224" y="118" name="inst_DA180E3A" locked="0" code="" scaleX="2" scaleY="0.28125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="240" y="126" name="inst_AAC956F9" locked="0" code="" scaleX="0.6875" scaleY="0.1875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="268" y="127" name="inst_1C6510C6" locked="0" code="" scaleX="0.46875" scaleY="0.6875" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="224" y="128" w="32" h="32" xo="34" yo="34" id="10013530" name="inst_DA947131" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -320,11 +320,11 @@
     <tile bgName="bg_buildings" x="384" y="32" w="32" h="32" xo="133" yo="67" id="10037865" name="inst_D7045106" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="352" y="32" w="32" h="32" xo="133" yo="67" id="10037866" name="inst_60A95EF5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="320" y="32" w="32" h="32" xo="133" yo="67" id="10037867" name="inst_6098AB60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_buildings" x="224" y="96" w="32" h="32" xo="34" yo="34" id="10037870" name="inst_37EF16E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_buildings" x="256" y="96" w="32" h="32" xo="34" yo="34" id="10037871" name="inst_DEEE9AD2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="256" y="128" w="32" h="32" xo="34" yo="34" id="10037872" name="inst_D4E1EF2F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="224" y="160" w="32" h="32" xo="34" yo="34" id="10037874" name="inst_2422E806" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_buildings" x="256" y="160" w="32" h="32" xo="34" yo="34" id="10037875" name="inst_B82D54BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_buildings" x="224" y="96" w="32" h="32" xo="1" yo="1" id="10038521" name="inst_FEFC6255" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_buildings" x="256" y="96" w="32" h="32" xo="1" yo="1" id="10038522" name="inst_96F36918" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

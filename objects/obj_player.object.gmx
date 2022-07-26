@@ -42,7 +42,7 @@ image_speed = 0;
 
 //Speeds
 spd = 2;        //2
-spdwalk = 6;    //2
+spdwalk = 20;    //2
 spdsprint = 3;  //3
 spdsneak = 1;   //1
 

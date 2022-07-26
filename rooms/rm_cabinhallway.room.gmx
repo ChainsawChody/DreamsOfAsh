@@ -57,7 +57,7 @@
     <instance objName="obj_door" x="254" y="160" name="inst_5D10797D" locked="0" code="new_room = rm_cabinbath;&#xA;new_x = 244;&#xA;new_y = 144;&#xA;" scaleX="0.0645161271095276" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="192" y="128" name="inst_4DC591DA" locked="0" code="new_room = rm_bridge;&#xA;new_x = 881;&#xA;new_y = 394;&#xA;" scaleX="1" scaleY="0.09375" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="177" y="160" name="inst_EE943348" locked="0" code="new_room = rm_cabinroom2;&#xA;new_x = 154;&#xA;new_y = 112;&#xA;" scaleX="0.125" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightinvisible" x="200" y="283" name="inst_D5099D11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightinvisible" x="200" y="286" name="inst_D5099D11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nightlightinvisible" x="199" y="138" name="inst_515862FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="215" y="159" name="inst_78BC13C5" locked="0" code="" scaleX="0.25" scaleY="0.03125" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="159" name="inst_D2F9402E" locked="0" code="" scaleX="0.25" scaleY="0.03125" colour="4294967295" rotation="0"/>
@@ -67,6 +67,7 @@
     <instance objName="obj_wall" x="160" y="128" name="inst_180F4D7E" locked="0" code="" scaleX="1" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="193" name="inst_135DDA74" locked="0" code="" scaleX="1" scaleY="0.96875" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="256" name="inst_F55481E2" locked="0" code="" scaleX="1" scaleY="0.96875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cabindoor" x="192" y="288" name="inst_14631E5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_worldtile" x="192" y="224" w="32" h="32" xo="34" yo="34" id="10013516" name="inst_08BF7124" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

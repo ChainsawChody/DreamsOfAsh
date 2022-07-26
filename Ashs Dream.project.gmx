@@ -232,9 +232,9 @@
       <sprite>sprites\spr_cornfield</sprite>
       <sprite>sprites\spr_deadtree</sprite>
       <sprite>sprites\spr_dirtroad</sprite>
-      <sprite>sprites\spr_fog</sprite>
       <sprite>sprites\spr_generator</sprite>
       <sprite>sprites\spr_grave</sprite>
+      <sprite>sprites\spr_fog</sprite>
       <sprite>sprites\spr_lanterntree</sprite>
       <sprite>sprites\spr_pumpkin</sprite>
       <sprite>sprites\spr_pumpkinM</sprite>
@@ -250,6 +250,7 @@
       <sprite>sprites\spr_vice</sprite>
       <sprite>sprites\spr_walllantern</sprite>
       <sprite>sprites\spr_water</sprite>
+      <sprite>sprites\spr_splash</sprite>
     </sprites>
     <sprites name="Weapons">
       <sprite>sprites\spr_stick</sprite>
@@ -477,6 +478,8 @@
       <object>objects\obj_scarecrow_health</object>
       <object>objects\obj_view</object>
       <object>objects\obj_wall</object>
+      <object>objects\obj_fog</object>
+      <object>objects\obj_fogController</object>
     </objects>
     <objects name="World Objects">
       <objects name="Buildings">
@@ -509,7 +512,6 @@
       <object>objects\obj_cornfield</object>
       <object>objects\obj_darkness</object>
       <object>objects\obj_fistytomb</object>
-      <object>objects\obj_fog</object>
       <object>objects\obj_generator</object>
       <object>objects\obj_lanterntree</object>
       <object>objects\obj_lightinvisible</object>
@@ -527,6 +529,11 @@
       <object>objects\obj_windowlight</object>
       <object>objects\obj_windowlight_top</object>
       <object>objects\obj_water</object>
+      <objects name="Rain Generator">
+        <object>objects\obj_rain</object>
+        <object>objects\obj_rain_generator</object>
+        <object>objects\obj_splash</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -18,3 +18,8 @@ mental fortitude to fight back, and burn the book/kill the demon within the drea
     - Return to grave dungeon
     - Follow dungeon to last boss fight
     - Return to insane asylum
+    
+07/05/2022
+  - Start in cabin, car outside, bridge to left, neighboring old woman to right, lumber yard close. 
+  - In route to town, add butcher and cornmaze
+  - Merge lake and town into one. Beans offshore.

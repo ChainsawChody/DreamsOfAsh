@@ -29,7 +29,7 @@
 if(keyboard_check(vk_tab)){
     //Draw Box
       draw_set_color(c_black)
-      draw_roundrect(view_wview[0], view_wview[0] + 75, view_wview[0] + 305, view_wview[0] - 30, false)
+      draw_roundrect(view_wview[0], view_hview[0] + 75, view_hview[0] + 425, view_wview[0] + 200, false)
       draw_set_color(c_white)
       draw_set_halign(fa_left)
     //All Stat Names
@@ -49,6 +49,11 @@ if(keyboard_check(vk_tab)){
       draw_text(view_wview[0] + 300, view_hview[0] + 175, string(obj_player_stats.attack));
       draw_text(view_wview[0] + 300, view_hview[0] + 200, string(obj_player.damageModifier));
       draw_text(view_wview[0] + 300, view_hview[0] + 225, string(obj_player.weapon_sprite));
+    //Other Debugs
+      draw_text(view_wview[0] + 5, view_hview[0] + 250, "");
+      draw_text(view_wview[0] + 5, view_hview[0] + 275, "");
+      draw_text(view_wview[0] + 300, view_hview[0] + 250, "");
+      draw_text(view_wview[0] + 300, view_hview[0] + 275, "");
 }
 /*
       draw_set_halign(fa_right);

@@ -55,7 +55,6 @@
     <instance objName="obj_cabinwalledge" x="96" y="160" name="inst_23D01A85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lighting" x="0" y="0" name="inst_261A8984" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="165" y="96" name="inst_46E3A747" locked="0" code="new_room = rm_cabinhallway;&#xA;new_x = 208;&#xA;new_y = 176;&#xA;" scaleX="0.0625" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightinvisible" x="137" y="202" name="inst_0DD34F3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightinvisible" x="174" y="104" name="inst_E7981A8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cabindoor" x="128" y="192" name="inst_15215964" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="64" name="inst_C257B08A" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
