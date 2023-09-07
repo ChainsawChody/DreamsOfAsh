@@ -1,15 +1,12 @@
-# Ash's Dream
-#### By @ChainsawChody
-"Ash's Dream" is a horror-themed RPG inspired by the 1980's Evil Dead movies. Project originally began in August of 2018 using GameMaker Studio.
+##Ash's Dream
+####ChainsawChody
+*"Ash's Dream" is a horror-themed RPG inspired by the 1980's Evil Dead movies. Project originally began in August of 2018 using GameMaker Studio.*
 
->[Youtube Trailer](https://youtu.be/ka4Qq3qRl4Y){:target="_blank"}  
->[Download Demo](https://drive.google.com/file/d/14Gcmi78RK9nkXSjK3e3jEb_ogliG7jNf/view?usp=drive_link){:target="_blank"} (Google Drive)  
+>[Youtube Trailer](https://youtu.be/ka4Qq3qRl4Y)
+>[Download Demo](https://drive.google.com/file/d/14Gcmi78RK9nkXSjK3e3jEb_ogliG7jNf/view?usp=drive_link) [Google Drive)]  
 
 <img src="https://media.discordapp.net/attachments/480152119140155432/535751699260768266/fogtest.gif" height="250"><img src="https://media.discordapp.net/attachments/480152119140155432/502916434138234890/ashfire.gif" height="250">
 
-## Features
-### Gore
-<img src="https://media.discordapp.net/attachments/822179667846103040/895892857418817586/GIF_9-22-2021_12-00-27_PM.gif" height="250">
-
-### Wildlife
-<img src="https://media.discordapp.net/attachments/822179667846103040/895893676302155856/GIF_9-16-2021_2-46-36_PM.gif" height="250">
+###Features
+####Gore, Wildlife
+<img src="https://media.discordapp.net/attachments/822179667846103040/895892857418817586/GIF_9-22-2021_12-00-27_PM.gif" height="250"><img src="https://media.discordapp.net/attachments/822179667846103040/895893676302155856/GIF_9-16-2021_2-46-36_PM.gif" height="250">
