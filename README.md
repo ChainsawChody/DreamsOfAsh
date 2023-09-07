@@ -2,8 +2,8 @@
 #### ChainsawChody  
 *"Ash's Dream" is a horror-themed RPG inspired by the 1980's Evil Dead movies. Project originally began in August of 2018 using GameMaker Studio.*  
   
-* [Watch Video Trailer [YouTube]](https://youtu.be/ka4Qq3qRl4Y) 📽️  
-* [Download Demo [Google Drive]](https://drive.google.com/file/d/14Gcmi78RK9nkXSjK3e3jEb_ogliG7jNf/view?usp=drive_link) 🔽  
+* [Watch Video Trailer [YouTube]](https://youtu.be/ka4Qq3qRl4Y)  
+* [Download Demo [Google Drive]](https://drive.google.com/file/d/14Gcmi78RK9nkXSjK3e3jEb_ogliG7jNf/view?usp=drive_link)  
   
 ## Features  
 Gore  
