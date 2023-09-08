@@ -1,4 +1,4 @@
-## Ash's Dream  
+## Dreams of Ash  
 #### ChainsawChody  
 *"Ash's Dream" is a horror-themed RPG inspired by the 1980's Evil Dead movies. Project originally began in August of 2018 using GameMaker Studio.*  
   
